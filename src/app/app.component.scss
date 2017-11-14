@@ -1,0 +1,34 @@
+.navbar {
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 8px 6px -6px #999;
+}
+.jumbotron {
+    height: 50vh;
+    background: url('../assets/imgs/home_background.png') no-repeat center center fixed; 
+    opacity: 0.95;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin-bottom: 0em;
+}
+footer {
+   height: 20vh;
+}
+.whattodo {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.icon-container {
+    .icon {
+        padding-bottom: 1em;
+        .icon-img {
+            max-height: 100%;
+            max-width: 100%;
+        }
+    }
+}
+
+$body-bg: transparent;
